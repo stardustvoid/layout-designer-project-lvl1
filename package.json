@@ -1,7 +1,7 @@
 {
-  "name": "html5-css-boilerplate",
+  "name": "layout-project-1",
   "version": "0.1.0",
-  "description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
+  "description": "Layout Project 1 Cognitive Biases",
   "repository": {
     "type": "git",
     "url": "https://github.com/hexlet-boilerplates/html-boilerplate.git"
