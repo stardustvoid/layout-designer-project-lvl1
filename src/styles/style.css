@@ -107,6 +107,14 @@ h3 {
   color: var(--dark);
 }
 
+.color-dark-opaque {
+  color: var(--dark-opaque);
+}
+
+.color-brown {
+  color: var(--brown);
+}
+
 .background-white {
   background-color: var(--white);
 }
@@ -244,7 +252,6 @@ a.square-card:hover h3 {
 .subheading {
   font-family: Neucha, cursive;
   font-size: 24px;
-  color: var(--dark-opaque);
 }
 
 .large-text {
