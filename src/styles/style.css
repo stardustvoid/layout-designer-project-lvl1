@@ -63,6 +63,10 @@ h3 {
   display: flex;
 }
 
+.just-between {
+  justify-content: space-between;
+}
+
 .col-gap-30 {
   column-gap: 30px;
 }
@@ -79,12 +83,24 @@ h3 {
   z-index: 1;
 }
 
+.m-0 {
+  margin: 0;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
 .mb-30 {
   margin-bottom: 30px;
 }
 
 .mb-min-200 {
   margin-bottom: -200px;
+}
+
+.p-55 {
+  padding: 55px;
 }
 
 .text-center {
@@ -113,6 +129,10 @@ h3 {
 
 .color-brown {
   color: var(--brown);
+}
+
+.color-blue {
+  color: var(--blue);
 }
 
 .background-white {
@@ -181,8 +201,8 @@ h3 {
 
 .button {
   display: inline-block;
-  margin-top: 40px;
   padding: 12px 24px;
+  border: none;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
@@ -267,4 +287,50 @@ a.square-card:hover h3 {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.footer-label {
+  display: block;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.footer-input {
+  box-sizing: border-box;
+  width: 423px;
+  height: 50px;
+  padding: 15px;
+  border: none;
+  font-size: 13.1px;
+}
+
+.send-button {
+  position: relative;
+  width: 70px;
+  height: 50px;
+}
+
+.send-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/send.svg);
+  transform: translate(-50%, -50%);
+}
+
+.agreement {
+  font-size: 12px;
+}
+
+.agreement a {
+  color: inherit;
+}
+
+.contacts {
+  margin-top: 60px;
+  font-size: 14px;
+  text-align: center;
 }
