@@ -169,6 +169,10 @@ h3 {
   background-color: var(--main-orange);
 }
 
+.button-orange:hover {
+  background-color: #ea7600;
+}
+
 .video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
@@ -184,10 +188,6 @@ h3 {
   row-gap: 20px;
 }
 
-#navigation h2 {
-  font-size: 52px;
-}
-
 .square-card {
   display: block;
   box-sizing: border-box;
@@ -195,13 +195,9 @@ h3 {
   padding: 24px;
 }
 
-.square-card:hover {
-  color: var(--white);
-  background-color: var(--main-orange);
-}
-
-.square-card:hover h3 {
-  color: var(--white);
+h2.square-card {
+  font-size: 52px;
+  margin: 0;
 }
 
 .square-card h3 {
@@ -218,4 +214,13 @@ h3 {
   font-family: Neucha, cursive;
   font-size: 64px;
   line-height: 1;
+}
+
+a.square-card:hover {
+  color: var(--white);
+  background-color: var(--main-orange);
+}
+
+a.square-card:hover h3 {
+  color: var(--white);
 }
