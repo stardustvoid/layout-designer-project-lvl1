@@ -59,6 +59,14 @@ h3 {
   font-size: 34px;
 }
 
+.d-flex {
+  display: flex;
+}
+
+.col-gap-30 {
+  column-gap: 30px;
+}
+
 .pos-relative {
   position: relative;
 }
@@ -71,12 +79,12 @@ h3 {
   z-index: 1;
 }
 
-.top-200 {
-  top: -200px;
-}
-
 .mb-30 {
   margin-bottom: 30px;
+}
+
+.mb-min-200 {
+  margin-bottom: -200px;
 }
 
 .text-center {
@@ -111,6 +119,10 @@ h3 {
   background-color: var(--main-dark);
 }
 
+.background-brown {
+  background-color: var(--brown);
+}
+
 .landing-section {
   display: flex;
   justify-content: center;
@@ -121,6 +133,10 @@ h3 {
 
 .section-content {
   width: 1110px;
+}
+
+.background-question {
+  position: relative;
 }
 
 .background-question::before {
@@ -223,4 +239,25 @@ a.square-card:hover {
 
 a.square-card:hover h3 {
   color: var(--white);
+}
+
+.subheading {
+  font-family: Neucha, cursive;
+  font-size: 24px;
+  color: var(--dark-opaque);
+}
+
+.large-text {
+  font-family: Neucha, cursive;
+  font-size: 34px;
+  line-height: 41px;
+}
+
+.small-header {
+  margin: 100px 0 20px;
+  padding: 5px 10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
