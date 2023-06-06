@@ -317,7 +317,7 @@ a.square-card:hover h3 {
   left: 50%;
   width: 24px;
   height: 24px;
-  background-image: url(../img/send.svg);
+  background-image: url("../img/send.svg");
   transform: translate(-50%, -50%);
 }
 
