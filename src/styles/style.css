@@ -119,6 +119,10 @@ h3 {
   color: var(--white);
 }
 
+.color-white-opaque {
+  color: var(--white-opaque);
+}
+
 .color-dark {
   color: var(--dark);
 }
@@ -242,6 +246,7 @@ h3 {
 h2.square-card {
   font-size: 52px;
   margin: 0;
+  padding: 0;
 }
 
 .square-card h3 {
